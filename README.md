@@ -2,11 +2,9 @@
 
 This repository contains the full codebase and dataset preprocessing pipeline for the study:  
 **"An ensemble machine learning approach for filling voids in surface elevation change maps over glacier surfaces"**  
-by Cameron Markovsky, Summer Rupper, Simon Brewer, and Richard Forster (University of Utah).
+by Cameron Markovsky, Summer Rupper, Simon Brewer, and Richard R. Forster (University of Utah).
 
-📄 [Read the paper](https://doi.org/10.5281/zenodo.XXXXXXX) (Zenodo DOI or journal link if available)
-
-## 🧩 Overview
+## Overview
 
 Glacier mass balance assessments in High Mountain Asia (HMA) require accurate surface elevation change maps, which often contain large voids due to sensor limitations, terrain shadowing, or lack of contrast in accumulation zones. This repository presents:
 
@@ -45,25 +43,7 @@ Glacier mass balance assessments in High Mountain Asia (HMA) require accurate su
 └── README.md
 ```
 
-## 🔧 Installation
-
-To set up the environment, run:
-
-```bash
-conda env create -f environment.yml
-conda activate ensemble_void_fill
-```
-
-Required core packages:
-- Python 3.10+
-- `xgboost`
-- `optuna`
-- `geopandas`, `rasterio`, `shapely`
-- `matplotlib`, `seaborn`
-- `shap`, `scikit-learn`
-- `jupyterlab`
-
-## 🧪 Reproducing the Study
+## Reproducing the Study
 
 ### 1. Preprocessing
 **Notebook:** `01_preprocessing.ipynb`  
@@ -122,7 +102,7 @@ Required core packages:
 - Use SHAP (SHapley Additive exPlanations) to interpret model predictions
 - Visualize spatial influence of predictors on sample glaciers (e.g., Toshain, Langmusang)
 
-## 📊 Results Summary
+## Results Summary
 
 | Region | Method      | RMSE (m a⁻¹) | MAE (m a⁻¹) |
 |--------|-------------|--------------|-------------|
@@ -133,25 +113,13 @@ Required core packages:
 |         | Hypsometric | 0.508        | 0.360       |
 |         | XGBoost     | **0.431**    | **0.310**   |
 
-## 📍 Study Regions
+## Study Regions
 
 - **Western Himalaya**: ~8,659 glaciers
 - **Eastern Himalaya**: ~2,172 glaciers
 - DEM Source: [Shean et al. (2020)](https://doi.org/10.5281/ZENODO.3872696)
 
-## 📜 Citation
-
-If you use this code or dataset, please cite:
-
-> Markovsky, C., Rupper, S., Brewer, S., & Forster, R. (2025). An ensemble machine learning approach for filling voids in surface elevation change maps over glacier surfaces. *The Cryosphere* (in review).
-
-## 🤝 Acknowledgements
-
-- DEM data from [OpenTopography](https://doi.org/10.5069/G9028PQB)
-- Glacier outlines from [RGI v6.0](https://doi.org/10.7265/4M1F-GD79)
-- Debris data from [Scherler et al., 2018](https://doi.org/10.5880/GFZ.3.3.2018.005)
-
-## 📬 Contact
+## Contact
 
 Cameron Markovsky  
 School of Environment, Society, and Sustainability  
