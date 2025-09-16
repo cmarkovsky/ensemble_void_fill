@@ -12,7 +12,7 @@ Glacier mass balance assessments in High Mountain Asia (HMA) require accurate su
 - Comparison with traditional constant and hypsometric interpolation methods
 - Benchmarking on DEMs from the Eastern and Western Himalayas
 
-## 🗃️ Repository Structure
+## Repository Structure
 
 ```
 ├── data/
