@@ -19,6 +19,11 @@ Glacier mass balance assessments in High Mountain Asia (HMA) require accurate su
 │   ├── raw/                  # Raw DEMs and RGI glacier outlines
 │   └── processed/            # Filtered and clipped elevation change datasets
 ├── notebooks/
+│   └── figure_generation/
+│       ├── fig01.ipynb
+│       ├── fig02.ipynb
+│       ├── fig03.ipynb
+│       └── fig05_06.ipynb 
 │   ├── 01_preprocessing.ipynb
 │   ├── 02_void_generation.ipynb
 │   ├── 03_constant_method.ipynb
